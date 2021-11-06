@@ -1,0 +1,41 @@
+body{
+    background-image: linear-gradient(rgba(78, 10, 10, 0.3),rgba(78, 10, 10, 0.3)), url("Netflix.png");
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 12vw;
+    margin-left: 30px;
+}
+.buttons{
+    margin: 15px;
+    margin-right: 40px;
+}
+.langBtn{
+    border: none;
+    padding: 8px 15px;
+   background-color: white;
+   color: darkgray;
+}
+.btn{
+    border: none;
+    padding: 8px 15px;
+    background-color: red;
+    color: white;    
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.content{
+    text-align: center;
+    color: white;
+}
+.content h2{
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.content p{
+    margin-top: 0;
+    font-size: 24px;
+}
